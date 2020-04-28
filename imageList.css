@@ -1,0 +1,181 @@
+/* Note: Use this file for picking images. This will hold all the images for this project.*/
+
+
+/*--------- In General ---------*/
+
+img {
+    image-rendering: crisp-edges;
+}
+
+
+/*--------- Food List ---------*/
+
+.IconFood {
+    background: url(images/food-list.png);
+    display: inline-block;
+    height: 252px;
+    width: 252px;
+}
+
+#loadedPotato {
+    background-position: 0px 0px;
+}
+
+#mugPizza {
+    background-position: 252px 0px;
+}
+
+#coffeeFoam {
+    background-position: 504px 0px;
+}
+
+#mugCookie {
+    background-position: 756px 0px;
+}
+
+#mugCake {
+    background-position: 1008px 0px;
+}
+
+
+/*--------- Tools ---------*/
+
+.IconTools {
+    background: url(images/Icon_tools.png);
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+#inventory {
+    background-position: 0px 0px;
+}
+
+#shoppingList {
+    background-position: 32px 0px;
+}
+
+
+/*--------- Inventory ---------*/
+
+.IconInventory {
+    background: url(images/food-inventory.png);
+    display: block;
+    height: 28px;
+    width: 28px;
+}
+
+
+/* Sprite Row 1*/
+
+#bakingPowder {
+    background-position: 0px 0px;
+}
+
+#vegetableOil {
+    background-position: 112px 0px;
+}
+
+#regMilk {
+    background-position: 84px 0px;
+}
+
+#almondMilk {
+    background-position: 56px 0px;
+}
+
+#instantCoffee {
+    background-position: 28px 0px;
+}
+
+
+/* Sprite Row 2*/
+
+#regFlour {
+    background-position: 0px 112px;
+}
+
+#regSugar {
+    background-position: 112px 112px;
+}
+
+#cocoaPowder {
+    background-position: 84px 112px;
+}
+
+#creamer {
+    background-position: 56px 112px;
+}
+
+#tomatoSauce {
+    background-position: 28px 112px;
+}
+
+
+/* Sprite Row 3*/
+
+#nutella {
+    background-position: 0px 84px;
+}
+
+#chocolateChips {
+    background-position: 112px 84px;
+}
+
+#peanutButter {
+    background-position: 84px 84px;
+}
+
+#egg {
+    background-position: 56px 84px;
+}
+
+#bakingPotato {
+    background-position: 28px 84px;
+}
+
+
+/* Sprite Row 4*/
+
+#oliveOil {
+    background-position: 0px 56px;
+}
+
+#blackBeans {
+    background-position: 112px 56px;
+}
+
+#salt {
+    background-position: 84px 56px;
+}
+
+#corn {
+    background-position: 56px 56px;
+}
+
+#sourCream {
+    background-position: 28px 56px;
+}
+
+
+/* Sprite Row 5*/
+
+#shreadedCheese {
+    background-position: 0px 28px;
+}
+
+#regWater {
+    background-position: 112px 28px;
+}
+
+#hotWater {
+    background-position: 84px 28px;
+}
+
+#null1 {
+    background-position: 56px 28px;
+}
+
+#null2 {
+    background-position: 28px 28px;
+}

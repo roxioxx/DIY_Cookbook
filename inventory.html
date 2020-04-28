@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Inventory | Rox's DIY Recipe Collection</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    </link>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </link>
+    <link rel="stylesheet" type="text/css" href="imageList.css">
+    </link>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+
+</head>
+
+<body class="parallax">
+
+    <header>
+        <h1>Inventory</h1>
+
+        <!-- Floating Buttons-->
+        <div class="tools">
+            <a href="index.html">
+                <button class="btn" style="margin-right: 30px;">
+                    Close
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+
+
+        <form>
+
+            <!--Inventory Sprites-->
+            <div class="flex-pond">
+
+                <!--Sprite Row 1-->
+                <div class="InvContainer" data-tippy-content="Baking Powder">
+                    <input type="checkbox" id="hasBakingPowder" name="Inventory" value="false">
+                    <label for="hasBakingPowder">
+                        <div class="InvSelectBox">
+                        <img id="bakingPowder" src="images/emptyPic.png" class="IconInventory" width="1px" >
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Vegetable Oil">
+                    <input type="checkbox" id="hasVegetableOil" name="Inventory" value="false">
+                    <label for="hasVegetableOil">
+                        <div class="InvSelectBox">
+                        <img id="vegetableOil" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Milk">
+                    <input type="checkbox" id="hasRegMilk" name="Inventory" value="false">
+                    <label for="hasRegMilk">
+                            <div class="InvSelectBox">
+                            <img id="regMilk" src="images/emptyPic.png" class="IconInventory" width="1px">
+                            </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Almond Milk">
+                    <input type="checkbox" id="hasAlmondMilk" name="Inventory" value="false">
+                    <label for="hasAlmondMilk">
+                            <div class="InvSelectBox">
+                            <img id="almondMilk" src="images/emptyPic.png" class="IconInventory" width="1px">
+                            </div>
+                        </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Instant Coffee">
+                    <input type="checkbox" id="hasInstantCoffee" name="Inventory" value="false">
+                    <label for="hasInstantCoffee">
+                        <div class="InvSelectBox">
+                        <img id="instantCoffee" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+
+                <!--Sprite Row 2-->
+                <div class="InvContainer" data-tippy-content="Flour">
+                    <input type="checkbox" id="hasRegFlour" name="Inventory" value="false">
+                    <label for="hasRegFlour">
+                        <div class="InvSelectBox">
+                        <img id="regFlour" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Sugar">
+                    <input type="checkbox" id="hasRegSugar" name="Inventory" value="false">
+                    <label for="hasRegSugar">
+                        <div class="InvSelectBox">
+                        <img id="regSugar" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Cocoa Powder">
+                    <input type="checkbox" id="hasCocoaPowder" name="Inventory" value="false">
+                    <label for="hasCocoaPowder">
+                        <div class="InvSelectBox">
+                        <img id="cocoaPowder" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Creamer">
+                    <input type="checkbox" id="hasCreamer" name="Inventory" value="false">
+                    <label for="hasCreamer">
+                        <div class="InvSelectBox">
+                        <img id="creamer" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Tomato Sauce">
+                    <input type="checkbox" id="hasTomatoSauce" name="Inventory" value="false">
+                    <label for="hasTomatoSauce">
+                        <div class="InvSelectBox">
+                        <img id="tomatoSauce" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+
+
+                <!--Sprite Row 3-->
+                <div class="InvContainer" data-tippy-content="Nutella">
+                    <input type="checkbox" id="hasNutella" name="Inventory" value="false">
+                    <label for="hasNutella">
+                        <div class="InvSelectBox">
+                        <img id="nutella" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Chocolate Chips">
+                    <input type="checkbox" id="hasChocolateChips" name="Inventory" value="false">
+                    <label for="hasChocolateChips">
+                        <div class="InvSelectBox">
+                        <img id="chocolateChips" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Peanut Butter">
+                    <input type="checkbox" id="hasPeanutButter" name="Inventory" value="false">
+                    <label for="hasPeanutButter">
+                        <div class="InvSelectBox">
+                        <img id="peanutButter" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Eggs">
+                    <input type="checkbox" id="hasEgg" name="Inventory" value="false">
+                    <label for="hasEgg">
+                        <div class="InvSelectBox">
+                        <img id="egg" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Baking Potato">
+                    <input type="checkbox" id="hasBakingPotato" name="Inventory" value="false">
+                    <label for="hasBakingPotato">
+                        <div class="InvSelectBox">
+                        <img id="bakingPotato" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+
+
+                <!--Sprite Row 4-->
+                <div class="InvContainer" data-tippy-content="Olive Oil">
+                    <input type="checkbox" id="hasOliveOil" name="Inventory" value="false">
+                    <label for="hasOliveOil">
+                        <div class="InvSelectBox">
+                        <img id="oliveOil" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Black Beans">
+                    <input type="checkbox" id="hasBlackBeans" name="Inventory" value="false">
+                    <label for="hasBlackBeans">
+                        <div class="InvSelectBox">
+                        <img id="blackBeans" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Salt">
+                    <input type="checkbox" id="hasSalt" name="Inventory" value="false">
+                    <label for="hasSalt">
+                        <div class="InvSelectBox">
+                        <img id="salt" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Corn">
+                    <input type="checkbox" id="hasCorn" name="Inventory" value="false">
+                    <label for="hasCorn">
+                        <div class="InvSelectBox">
+                        <img id="corn" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Sour Cream">
+                    <input type="checkbox" id="hasSourCream" name="Inventory" value="false">
+                    <label for="hasSourCream">
+                        <div class="InvSelectBox">
+                        <img id="sourCream" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+
+
+                <!--Sprite Row 5-->
+                <div class="InvContainer" data-tippy-content="Shreaded Cheese">
+                    <input type="checkbox" id="hasShreadCheese" name="Inventory" value="false">
+                    <label for="hasShreadCheese">
+                        <div class="InvSelectBox">
+                        <img id="shreadedCheese" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Water">
+                    <input type="checkbox" id="hasRegWater" name="Inventory" value="false">
+                    <label for="hasRegWater">
+                        <div class="InvSelectBox">
+                        <img id="regWater" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="InvContainer" data-tippy-content="Hot Water">
+                    <input type="checkbox" id="hasHotWater" name="Inventory" value="false">
+                    <label for="hasHotWater">
+                        <div class="InvSelectBox">
+                        <img id="hotWater" src="images/emptyPic.png" class="IconInventory" width="1px">
+                        </div>
+                    </label>
+                </div>
+
+
+
+            </div>
+
+            <!--Ending the Form-->
+            <div class="flex-pond">
+
+                <p>
+                    <input type="reset" class="btn" id="reset">
+                    <input type="submit" value="Save" class="btn">
+                </p>
+            </div>
+
+        </form>
+
+
+
+    </main>
+    <footer>
+
+        <!-- Development -->
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+        <!-- Production -->
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+
+        <script rel="stylesheet" type="text/javascript" src="script.js"></script>
+
+    </footer>
+
+</body>
+
+</html>

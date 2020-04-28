@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Shopping List | Rox's DIY Recipe Collection</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    </link>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </link>
+    <link rel="stylesheet" type="text/css" href="imageList.css">
+    </link>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="parallax">
+
+    <header>
+        <h1>Shopping List</h1>
+
+        <!-- Floating Buttons-->
+        <div class="tools">
+            <a href="index.html">
+                <button class="btn" style="margin-right: 30px;">
+                    Close
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="cars">Pull Missing Ingredients from:</label>
+
+            <select id="cars">
+                <option value="volvo">Chocolate Mug Cake</option>
+                <option value="saab">Chocolate Chip Mug Cookie</option>
+                <option value="opel">Coffee Foam</option>
+                <option value="audi">Pizza Mug</option>
+                <option value="audi">Loaded Potato</option>
+                </select><br><br>
+            <input type="reset" class="btn" id="reset">
+            <input type="submit" value="Submit" class="btn">
+        </form>
+
+    </main>
+
+    <footer>
+
+        <!-- Development -->
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+        <!-- Production -->
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+
+        <script rel="stylesheet" type="text/javascript" src="script.js"></script>
+
+    </footer>
+</body>
+
+</html>
