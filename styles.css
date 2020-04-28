@@ -1,3 +1,47 @@
+/* ---------------- This is an experiment ------------------*/
+
+@media only screen and (min-width: 320px) {
+    /* Small screen, non-retina */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
+only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 320px),
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 320px),
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 320px),
+only screen and ( min-resolution: 192dpi) and (min-width: 320px),
+only screen and ( min-resolution: 2dppx) and (min-width: 320px) {
+    /* Small screen, retina, stuff to override above media query */
+}
+
+@media only screen and (min-width: 700px) {
+    /* Medium screen, non-retina */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 700px),
+only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 700px),
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 700px),
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 700px),
+only screen and ( min-resolution: 192dpi) and (min-width: 700px),
+only screen and ( min-resolution: 2dppx) and (min-width: 700px) {
+    /* Medium screen, retina, stuff to override above media query */
+}
+
+@media only screen and (min-width: 1300px) {
+    /* Large screen, non-retina */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1300px),
+only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 1300px),
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 1300px),
+only screen and ( min-device-pixel-ratio: 2) and (min-width: 1300px),
+only screen and ( min-resolution: 192dpi) and (min-width: 1300px),
+only screen and ( min-resolution: 2dppx) and (min-width: 1300px) {
+    /* Large screen, retina, stuff to override above media query */
+}
+
+
+/* ---------------- This is an experiment ends here ------------------*/
+
 body {
     background: #f4f4f4;
     background-size: 100% 100%;
@@ -318,42 +362,3 @@ input[type="checkbox"] {
 
 
 /* ---------------- This is an experiment ------------------*/
-
-@media only screen and (min-width: 320px) {
-    /* Small screen, non-retina */
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px),
-only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 320px),
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 320px),
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 320px),
-only screen and ( min-resolution: 192dpi) and (min-width: 320px),
-only screen and ( min-resolution: 2dppx) and (min-width: 320px) {
-    /* Small screen, retina, stuff to override above media query */
-}
-
-@media only screen and (min-width: 700px) {
-    /* Medium screen, non-retina */
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 700px),
-only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 700px),
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 700px),
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 700px),
-only screen and ( min-resolution: 192dpi) and (min-width: 700px),
-only screen and ( min-resolution: 2dppx) and (min-width: 700px) {
-    /* Medium screen, retina, stuff to override above media query */
-}
-
-@media only screen and (min-width: 1300px) {
-    /* Large screen, non-retina */
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1300px),
-only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 1300px),
-only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 1300px),
-only screen and ( min-device-pixel-ratio: 2) and (min-width: 1300px),
-only screen and ( min-resolution: 192dpi) and (min-width: 1300px),
-only screen and ( min-resolution: 2dppx) and (min-width: 1300px) {
-    /* Large screen, retina, stuff to override above media query */
-}
